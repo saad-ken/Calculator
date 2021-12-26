@@ -2,9 +2,9 @@ import React from 'react'
 
 const OutputScreen = ({ans,ques}) => {
     return (
-        <div>
+        <div className='input'>
             {ques ? `(${ques})` : ''} 
-            <span>{ans ? `${ans}` : '0'}</span>
+            <span className='result'>{ans ? `${ans}` : '0'}</span>
         </div>
     )
 }
