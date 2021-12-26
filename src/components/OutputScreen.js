@@ -1,9 +1,10 @@
 import React from 'react'
 
-const OutputScreen = () => {
+const OutputScreen = ({ans,ques}) => {
     return (
         <div>
-            hi
+            {ques}
+            {ans}
         </div>
     )
 }

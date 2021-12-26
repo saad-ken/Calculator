@@ -1,10 +1,8 @@
 import React from 'react'
 
-const Keys = () => {
+const Keys = ({lable,click}) => {
     return (
-        <div>
-            hi
-        </div>
+       <input type="button" value={lable}  onClick={click} />
     )
 }
 
